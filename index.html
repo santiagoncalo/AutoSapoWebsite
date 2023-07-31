@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/estilos.css">
+  <link rel="stylesheet" href="/estilos.scss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Carros usados, Automóveis usados - Auto SAPO</title>
+  <link rel="icon" href="imagens/sapo_symbol-removebg-preview.png">
+
+</head>
+
+<body>
+  <!-- NavBar -->
+  <header>
+
+    <nav>
+      <a href="#"><img src="imagens/logo_sapo1111.svg"></a>
+      <ul class="nav-list">
+        <li><a href="#">MAIL </a></li>
+        <li><a href="#">JORNAIS </a></li>
+        <li><a href="#">CARROS </a></li>
+        <li><a href="#">CASAS </a></li>
+        <li><a href="#">EMPREGO</a></li>
+        <li><a href="#">BLOGS </a></li>
+        <li><a href="#">PROMOS </a></li>
+        <li><a href="#">VIRAL</a></li>
+        <li><a href="#">TUDO</a></li>
+        <a id="seta2" class="fa fa-angle-down"></a>
+        <i class="fa fa-magnifying-glass"></i>
+      </ul>
+      <div class="icons1"> <a id="envelope" class="fa fa-envelope"></a>
+        <a id="user" class="fa fa-user"></a>
+      </div>
+    </nav>
+    <div id="nav2">
+      <a href="#"><img src="imagens/AUTOSAPO-removebg-preview.png"></a>
+      <ul class="nav2-list">
+        <div class="dropdown">
+          <button class="dropbtn">COMPRAR
+            <a id="seta" class="fa fa-angle-down"></a>
+          </button>
+
+          <div class="dropdown-content">
+            <a href="#">Carro</a>
+            <a href="#">Comercial</a>
+            <a href="#">Moto</a>
+            <a href="#">Barco</a>
+          </div>
+        </div>
+        <button class="dropbtn">VENDER</button>
+        <div class="dropdown">
+          <button class="dropbtn">SERVIÇOS
+            <a id="seta1" class="fa fa-angle-down"></a>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Venda Já</a>
+            <a href="#">Premium</a>
+          </div>
+        </div>
+        <button class="dropbtn">LOGIN
+          <a id="user2" class="fa fa-user"></a>
+        </button>
+      </div>
+
+  </header>
+  <div class="div3">
+    <div class="formularioeimagem">
+       <div>
+          <div class="formulariosapo">
+             <div class="leftsideform">
+                <div id="parteform" class="tipo">
+                   <p class="textoslabel">TIPO</p>
+                   <select name="" id="cars">
+                      <option value="" disabled selected>Carro</option>          
+                      <option value="comercial">Comercial</option>
+                   </select>
+                </div>
+                <div id="parteform"  class="modelo" >
+                   <p value="" disabled selected class="textoslabel">MODELO</p>
+                   <select name="" id="modeloindiferente">
+                      <option value="indireferente">Indiferente</option>
+                   </select>
+                </div>
+                <div id="parteform" class="preco">
+                   <p class="textoslabel">PREÇO</p>
+                   <select name="" id="precocaixa">
+                      <option value="" disabled selected>de...</option>
+                      <option value="5.000 €">5.000 €</option>
+                      <option value="10.000 €">10.000 €</option>
+                      <option value="15.000 €">15.000 €</option>
+                      <option value="20.000 €">20.000 €</option>
+                   </select>
+                   <select name="" id="precocaixa">
+                      <option value="" disabled selected>até...</option>
+                      <option value="5.000 €">5.000 €</option>
+                      <option value="10.000 €">10.000 €</option>
+                      <option value="15.000 €">15.000 €</option>
+                      <option value="20.000 €">20.000 €</option>
+                   </select>
+                </div>
+                <div id="parteform"  class="programas de certificacao">
+                   <p class="textoslabel">PROGRAMAS DE CERTIFICAÇÃO</p>
+                   <select name="" id="cars">
+                      <option value="" disabled selected>Escolha..</option>
+                      <option type="checkbox" value="volvo">Stand Power</option>
+                      <option type="checkbox" value="saab">Mercedes-Benz Certified</option>
+                   </select>
+                </div>
+                <p class="stands">Stands Power</p>
+             </div>
+             <div class="rightsideform">
+                <div id="parteform"  class="marca">
+                   <p class="textoslabel">MARCA</p>
+                   <select name="" id="cars">
+                      <option value="" disabled selected>Indiferente</option>
+                      <option value="abarth">Abarth</option>
+                      <option value="alfaromeo">Alfa Romeo</option>
+                      <option value="astonmartin">Aston Martin</option>
+                      <option value="audi">Audi</option>
+                      <option value="bentley">Bentley</option>
+                      <option value="bmw">BMW</option>
+                   </select>
+                </div>
+                <div id="parteform"  class="ano" >
+                   <p class="textoslabel">ANO</p>
+                   <select name="" id="ano">
+                      <option value="" disabled selected>de...</option>
+                      <option value="2023">2023</option>
+                      <option value="2022">2022</option>
+                      <option value="2021">2021</option>
+                      <option value="2020">2020</option>
+                   </select>
+                   <select name="" id="ano">
+                      <option value="" disabled selected>até...</option>
+                      <option value="2023">2023</option>
+                      <option value="2022">2022</option>
+                      <option value="2021">2021</option>
+                      <option value="2020">2020</option>
+                   </select>
+                </div>
+                <div id="parteform"  class="combustivel">
+                   <p class="textoslabel">COMBUSTIVEL</p>
+                   <select name="" id="cars">
+                      <option value="" disabled selected>Escolha...</option>
+                      <option value="diesel">Diesel</option>
+                      <option value="eletrico">Eletrico</option>
+                      <option value="gasolina">Gasolina</option>
+                      <option value="GPL">GPL</option>
+                   </select>
+                </div>
+                <div class="pesquisacont">
+                   <div class="pesquisaform">
+                      <p>PESQUISAR </p>
+                   </div>
+                </div>
+                <div class="favepesquisa">
+                   <a class="fav" href="#favoritos">Favoritos</a>
+                   <a class="search" href="#">Pesquisas guardadas <span class="numero">0</span></a>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="imagemanuncio">
+          <a><img src="imagens/imagemestoicar.jpg" alt=""></a>
+       </div>
+    </div>
+ </div>
+  <div class="quatro-caixas">
+    <div class="caixa">
+      <img class="icone" src="imagens/novidades.svg" alt="">
+      <p class="paragrafo">NOVIDADES</p>
+    </div>
+    <div class="caixa">
+      <img class="icone" src="imagens/sp.svg" alt="">
+      <p class="paragrafo_2">OFERTAS POWER</p>
+    </div>
+    <div class="caixa">
+      <img class="icone" src="imagens/familia.svg" alt="">
+      <p class="paragrafo">FAMILIAR</p>
+    </div>
+    <div class="caixa">
+      <img class="icone" src="imagens/medalha.svg" alt="">
+      <p class="paragrafo_3">GARANTIA DE 2 ANOS</p>
+    </div>
+  </div>
+
+  <div class="galeria">
+    <div class="carros">
+      <div class="titulocarro"><img class="fotos" src="imagens/mercedes-foto.jpg">
+        <p class="descricaocarro">Mercedes-Benz Classe A 180d...</p>
+        <div class="caracteristicas">
+          <p class="km">77.281 km</p>
+          <p class="other">2019· Diesel</p>
+        </div>
+        <div class="valor">
+          27.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro1.jpg">
+        <p class="descricaocarro">MINI Cabrio One</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">85.252 km</p>
+          <p class="other">2017· Gasolina</p>
+        </div>
+        <div class="valor">
+          21.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro2.jpg">
+        <p class="descricaocarro">Mercedes-Benz Classe 200 BE...</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">62.813 km</p>
+          <p class="other">2011· Gasolina</p>
+        </div>
+        <div class="valor">
+          26.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro3.jpg">
+        <p class="descricaocarro">MINI One Standard</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">87.281 km</p>
+          <p class="other">2015· Gasolina</p>
+        </div>
+        <div class="valor">
+          14.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro4.jpg">
+        <p class="descricaocarro">MINI One Auto</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">70.281 km</p>
+          <p class="other">2016· Gasolina</p>
+        </div>
+        <div class="valor">
+          18.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro5.jpg">
+        <p class="descricaocarro">Opel Grandland X 1.2 Edition AT</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">94.786 km</p>
+          <p class="other">2016· Gasolina</p>
+        </div>
+        <div class="valor">
+          23.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro6.jpg">
+        <p class="descricaocarro">Opel Karl 1.0 FlexFuel</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">59.494 km</p>
+          <p class="other">2015· Gasolina</p>
+        </div>
+        <div class="valor">
+          11.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro7.jpg">
+        <p class="descricaocarro">Peugeot 308 1.5 BlueHDi</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">79.096 km</p>
+          <p class="other">2018· Diesel</p>
+        </div>
+        <div class="valor">
+          18.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro8.jpg">
+        <p class="descricaocarro">Peugeot 308 1.5 BlueHDi</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">72.695 km</p>
+          <p class="other">2018· Diesel</p>
+        </div>
+        <div class="valor">
+          18.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro9.jpg">
+        <p class="descricaocarro">Peugeot 308 1.2 PureTech Style</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">88.196 km</p>
+          <p class="other">2015· Diesel</p>
+        </div>
+        <div class="valor">
+          15.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro10.jpg">
+        <p class="descricaocarro">Renault Captur 0.9 TCE Exclusive</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">77.865 km</p>
+          <p class="other">2019· Gasolina</p>
+        </div>
+        <div class="valor">
+          15.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro11.jpg">
+        <p class="descricaocarro">Nissan Qashqai 1.2 DIG-T</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">94.281 km</p>
+          <p class="other">2016· Gasolina</p>
+        </div>
+        <div class="valor">
+          28.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro12.jpg">
+        <p class="descricaocarro">Nissan Juke 1.2 DIG-T</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">77.281 km</p>
+          <p class="other">2018· Gasolina</p>
+        </div>
+        <div class="valor">
+          16.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro13.jpg">
+        <p class="descricaocarro">Honda Civic 1.6-DTEC Comfort</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">85.794 km</p>
+          <p class="other">2016· Diesel</p>
+        </div>
+        <div class="valor">
+          16.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro14jpg.jpg">
+        <p class="descricaocarro">Mercedes-Benz Classe SLK 200...</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">60.281 km</p>
+          <p class="other">2011· Diesel</p>
+        </div>
+        <div class="valor">
+          26.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro15.jpg">
+        <p class="descricaocarro">Smart Fourfour Eletric Drive</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">19.996 km</p>
+          <p class="other">2019· Elétrico</p>
+        </div>
+        <div class="valor">
+          18.490€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro16.jpg">
+        <p class="descricaocarro">Smart Fortwo Eletric Drive Prime</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">18.537 km</p>
+          <p class="other">2017· Elétrico</p>
+        </div>
+        <div class="valor">
+          18.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro17.jpg">
+        <p class="descricaocarro">Tesla Model Y RWD</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">40 km</p>
+          <p class="other">2022· Eletrico</p>
+        </div>
+        <div class="valor">
+          54.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro18.jpg">
+        <p class="descricaocarro">Toyota Aygo 1.0 X-Play</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">32.660 km</p>
+          <p class="other">2019· Gasolina</p>
+        </div>
+        <div class="valor">
+          15.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro19.jpg">
+        <p class="descricaocarro">Citroen C4 Cactus 1.2 PureTech...</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">57.622 km</p>
+          <p class="other">2016· Diesel</p>
+        </div>
+        <div class="valor">
+          15.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro20jpg.jpg">
+        <p class="descricaocarro">Honda HR-V 1.5 i-VTEC Executive</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">65.781 km</p>
+          <p class="other">2017· Gasolina</p>
+        </div>
+        <div class="valor">
+          25.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/Honda-Jazz-174891008.jpg">
+        <p class="descricaocarro">Honda Jazz 1.3 I-VTEC Comfort</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">75.950 km</p>
+          <p class="other">2015· Gasolina</p>
+        </div>
+        <div class="valor">
+          14.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro22jpg.jpg">
+        <p class="descricaocarro">Honda Civic 1.0 i-VTEC Executive</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">47.161 km</p>
+          <p class="other">2019· Gasolina</p>
+        </div>
+        <div class="valor">
+          25.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro23.jpg">
+        <p class="descricaocarro">Honda Civic 1.0 i-VTEC Executive</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">10.248 km</p>
+          <p class="other">2019· Gasolina</p>
+        </div>
+        <div class="valor">
+          24.700€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro24jpg.jpg">
+        <p class="descricaocarro">Hyundai i10 1.0 Comfort</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">10.872 km</p>
+          <p class="other">2021· Gasolina</p>
+        </div>
+        <div class="valor">
+          14.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro25.jpg">
+        <p class="descricaocarro">Hyundai Kauai 1.0 T-GDi Premium</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">53.320 km</p>
+          <p class="other">2018· Gasolina</p>
+        </div>
+        <div class="valor">
+          18.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro26.jpg">
+        <p class="descricaocarro">Mercedes-Benz Classe GLA 200</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">57.821 km</p>
+          <p class="other">2015· Gasolina</p>
+        </div>
+        <div class="valor">
+          28.600€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro27.jpg">
+        <p class="descricaocarro">Mercedes-Benz Classe GLA 180</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">70.803 km</p>
+          <p class="other">2015· Diesel</p>
+        </div>
+        <div class="valor">
+          22.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro31.jpg">
+        <p class="descricaocarro">Volkswagen Golf 1.2 TSi</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">78.218 km</p>
+          <p class="other">2015· Diesel</p>
+        </div>
+        <div class="valor">
+          17.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro28.jpg">
+        <p class="descricaocarro">Volkswagen Golf 1.6 TDi</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">77.281 km</p>
+          <p class="other">2019· Gasolina</p>
+        </div>
+        <div class="valor">
+          25.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro29.jpg">
+        <p class="descricaocarro">Volvo XC40 2.0 D3 Momentum</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">87.761 km</p>
+          <p class="other">2019· Diesel</p>
+        </div>
+        <div class="valor">
+          41.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro30.jpg">
+        <p class="descricaocarro">Volvo V40 2.0 D2 Momentum</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">53.760 km</p>
+          <p class="other">2018· Diesel</p>
+        </div>
+        <div class="valor">
+          21.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro32.jpg">
+        <p class="descricaocarro">Dacia Sandero 0.9 Tce</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">75.885 km</p>
+          <p class="other">2016· Gasolina</p>
+        </div>
+        <div class="valor">
+          12.750€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro33.jpg">
+        <p class="descricaocarro">Dacia Duster 1.5 Blue dCi</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">24.487 km</p>
+          <p class="other">2021· Diesel</p>
+        </div>
+        <div class="valor">
+          23.900€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro34.jpg">
+        <p class="descricaocarro">Fiat 500C 1.2 Lounge</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">22.949 km</p>
+          <p class="other">2020· Gasolina</p>
+        </div>
+        <div class="valor">
+          16.600€
+        </div>
+      </div>
+      <div class="titulocarro"><img class="fotos" src="imagens/carro35.jpg">
+        <p class="descricaocarro">Ford Fiesta 1.5 TdCi Connected</p>
+        <p class="descricaocarro"></p>
+        <div class="caracteristicas">
+          <p class="km">85.360 km</p>
+          <p class="other">2019· Diesel</p>
+        </div>
+        <div class="valor">
+          15.900€
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="botao-classes">
+    <a class="destaques" href="#">CARREGAR MAIS DESTAQUES</a>
+  </div>
+
+  <!-- parte da simulacao -->
+  <div class="divextra">
+    <form class="pesquisa" action="vendas.js" method="post">
+      <fieldset>
+        <div class="vendacarros">
+          <div>
+            <h1>Venda o seu carro...</h1>
+          </div>
+          <div class="caixasdetexto">
+            <label>MARCA</label>
+            <input id="marca" class="form_control" type="text" name="marca" required placeholder="Insira a Marca...">
+          </div>
+
+          <div class="caixasdetexto">
+            <label>MODELO</label>
+            <input id="modelo" class="form_control" type="text" name="modelo" required placeholder="Insira o Modelo...">
+          </div>
+
+          <div class="caixasdetexto">
+            <label>PREÇO DE AQUISIÇÃO</label>
+            <input id="precoaquisicao" class="form_control" type="text" name="preço" required placeholder="Preço de Aquisição...">
+          </div>
+
+          <div class="caixasdetexto">
+            <label>ANO DA MATRÍCULA</label>
+            <input id="ano" class="form_control" type="text" name="preço" required placeholder="Ano da matrícula...">
+          </div>
+
+
+          <div class="caixasdetexto">
+            <label>QUILOMETRAGEM</label>
+            <input id="kms" class="form_control" type="text" name="km" required placeholder="Quilometragem...">
+          </div>
+      </fieldset>
+      <div class="botaovendacont">
+        <button class="botaovenda" type="submit" value="SIMULAR VENDA" onsubmit="simulacao()">Simular Venda</button>
+      </div>
+    </form>
+    <!-- parte da simulacao -->
+  
+    <div class="simulacao">
+      <h2 class="simulacaotitulo"> -Simulações de venda- </h2>
+    <div class="cenarios">
+              <div class="cenario1">
+                  <div class="estado"><span>Mau estado</span></div>
+                  <div class="precofinal"><span class="precof1"></span></div>
+                  </div>
+                  
+          <div class="cenario2">
+              <div class="estado"><span>Bom estado</span></div>
+              <div class="precofinal"><span class="precof2"></span></div>
+              </div>
+          
+  
+          <div class="cenario3">
+              <div class="estado"><span>Muito Bom Estado</span></div>
+              <div class="precofinal"><span class="precof3"></span></div>
+              </div>
+          
+  </div>
+        <div class="cenarios_hover">
+          <div class="cenario1_hover">
+              <div class="estado"><span>Mau estado</span></div>
+              <div><span class="precof1"></span>€</div>
+              <div class="características_1_1" onmouseover="myOverFunction()">
+                  <div><span class="carmarca1"></span></div>
+                  <div><span class="carmodelo1"></span></div>
+                  <div><span class="carpreco1"></span> €</div>
+                  <div><span class="carano1"></span></div>
+                  <div><span class="carkms1"></span> kms</div>
+              </div>
+          </div>
+
+          <div class="cenario2_hover">
+              <div class="estado"><span>Bom estado</span></div>
+              <div><span class="precof2"></span>€</div>
+              <div class="características_1_2" onmouseover="myOverFunction()">
+                  <div><span class="carmarca2"></span></div>
+                  <div><span class="carmodelo2"></span></div>
+                  <div><span class="carpreco2"></span> €</div>
+                  <div><span class="carano2"></span></div>
+                  <div><span class="carkms2"></span> kms</div>
+              </div>
+          </div>
+          
+  
+          <div class="cenario3_hover">
+              <div class="estado"><span>Muito Bom Estado</span></div>
+              <div><span class="precof3"></span>€</div>
+              <div class="características_1_3" onmouseover="myOverFunction()">
+                  <div><span class="carmarca3"></span></div>
+                  <div><span class="carmodelo3"></span></div>
+                  <div><span class="carpreco3"></span> €</div>
+                  <div><span class="carano3"></span></div>
+                  <div><span class="carkms3"></span> kms</div>
+              </div>
+          </div>
+          </div> 
+  </div>
+  </div>
+
+
+  <div class="upthenews">
+    <div class="anunciar">
+      <p class="anuncio"><a>ANUNCIAR</a> GRÁTIS</p>
+      <p class="descrição">Alcance milhares de compradores por mês</p>
+      <p class="descrição">Grátis durante 60 dias</p>
+      <div class="publicar-botao">
+        <p class="publicar-caixa"> PUBLICAR </p>
+      </div>
+    </div>
+    <div class="venda">
+      <p class="anuncio">VENDA <a>EM 24H</a></p>
+      <p class="descrição"> Venda o seu carro e receba o dinheiro em 24
+        horas</p>
+      <div class="pedir-botao">
+        <p class="pedir-caixa">PEDIR PROPOSTA</p>
+      </div>
+    </div>
+  </div>
+  <div class="newsletter">
+
+    <div class="textonews">
+      <p class="subscreva-titulo"> SUBSCREVA A NOSSA NEWSLETTER</p>
+      <p class="insira">Por favor insira o seu e-mail
+        para receber a newsletter com a oferta diária.</p>
+
+    </div>
+    <div class="botaosubscricao">
+      <p class="subscrever">SUBSCREVER</p>
+    </div>
+  </div>
+
+  <footer>
+
+    <div class="footerlogo">
+      <p class="auto">AUTO<a class="negrito">SAPO</a></p>
+      <p class="seguir">Siga-nos em:</p>
+      <icons>
+        <a id="twitter" class="fa fa-twitter"></a>
+        <a id="facebook" class="fa fa-facebook"></a>
+      </icons>
+    </div>
+
+    <div class="footermenu">
+      <div class="coluna1">
+        <li class="titulosmenu">COMPRAR CARRO</li>
+        <ul class="textohorizontal">
+          <li>
+            <a href="#">Carros usados</a>
+          </li>
+          <li>
+            <a href="#">Comerciais usados</a>
+          </li>
+          <li>
+            <a href="#">Carros certificados</a>
+          </li>
+          <li>
+            <a href="#">Carros baratos</a>
+          </li>
+          <li>
+            <a href="#">Carros com garantia</a>
+          </li>
+          <li>
+            <a href="#">Carros usados por marca</a>
+          </li>
+          <li>
+            <a href="#">Carros usados por localização</a>
+          </li>
+        </ul>
+      </div>
+      <div class="coluna2">
+        <div class="titulosmenu">VENDER CARRO</div>
+        <ul class="textohorizontal">
+          <li>
+            <a href="#">Vender em 24h</a>
+          </li>
+          <li>
+            <a href="#">Serviço de Venda Premium</a>
+          </li>
+          <li>
+            <a href="#">Anunciar Grátis</a>
+          </li>
+        </ul>
+      </div>
+      <div class="coluna3">
+        <li class="titulosmenu">SERVIÇOS</li>
+        <ul class="textohorizontal">
+          <li>
+            <a href="#">Venda Já</a>
+          </li>
+          <li>
+            <a href="#">Premium</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="coluna4">
+        <li class="titulosmenu">SOBRE NÓS</li>
+        <ul class="textohorizontal">
+          <li>
+            <a href="#">Auto SAPO</a>
+          </li>
+          <li>
+            <a href="#">Ajuda</a>
+          </li>
+          <li>
+            <a href="#">Termos de utilização</a>
+          </li>
+          <li>
+            <a href="#">Comerciantes no Auto SAPO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="linksfinais">
+      <div class="listafinal">
+        <ul>
+          <li>
+            <a href="#">SOBRE O SAPO</a>
+          </li>
+          <li>
+            <a href="#">CONDIÇÕES DE UTILIZAÇÃO</a>
+          </li>
+
+          <li>
+            <a href="#">POLÍTICA DE PRIVACIDADE</a>
+          </li>
+          <li><a href="#">RGPD</a></li>
+
+          <li><a href="#">SOBRE COOKIES</a></li>
+
+          <li><a href="#">AJUDA</a></li>
+
+          <li><a href="#">DEFINIÇÕES DE PRIVACIDADE</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <img class="logo-img" src="imagens/logo_sapo1111.svg">
+      <div class="textodireitos"></div>
+      <p class="direitos">Produzido por <a class="sapo" href="www.sapo.pt">SAPO</a> - Todos os direitos reservados.</p>
+    </div>
+    </div>
+  </footer>
+
+<script src="vendas.js"></script>
+</body>
+</html>
